@@ -137,6 +137,26 @@ abstract final class LernoGlyphs {
     GlyphPart('M 5 0 L 0 5 L 5 10', dx: 7, dy: 5, stroke: 1.5),
   ]);
 
+  /// Small down chevron (16 × 16) for dropdown fields.
+  static const chevronDown = LernoGlyph(16, 16, [
+    GlyphPart('M 0 0 L 4 4 L 8 0', dx: 4, dy: 6, stroke: 1.2),
+  ]);
+
+  /// Padlock (16 × 16) for the anonymity notice.
+  static const lock = LernoGlyph(16, 16, [
+    GlyphPart(
+        'M 4.5 7 L 11.5 7 C 12.328 7 13 7.672 13 8.5 L 13 12.5 C 13 13.328 12.328 14 11.5 14 L 4.5 14 C 3.672 14 3 13.328 3 12.5 L 3 8.5 C 3 7.672 3.672 7 4.5 7 Z',
+        stroke: 1),
+    GlyphPart(
+        'M 5 7 L 5 5 C 5 3.343 6.343 2 8 2 C 9.657 2 11 3.343 11 5 L 11 7',
+        stroke: 1),
+  ]);
+
+  /// Small right chevron (16 × 16) for settings rows.
+  static const chevronRight = LernoGlyph(16, 16, [
+    GlyphPart('M 0 0 L 4 4 L 0 8', dx: 6, dy: 4, stroke: 1.2),
+  ]);
+
   /// Close / cancel cross (16 × 16), used on the study-session header.
   static const close = LernoGlyph(16, 16, [
     GlyphPart('M 9.333 0 L 0 9.333 M 0 0 L 9.333 9.333',
